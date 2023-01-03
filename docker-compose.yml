@@ -8,3 +8,5 @@ services:
     working_dir: /app
     tty: true
     command: /bin/bash
+    ports:
+      - 7878:7878
