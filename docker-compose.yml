@@ -2,7 +2,8 @@ version: '3.8'
 
 services:
   workspace:
-    image: rust:1.65-buster
+    build:
+      context: .
     volumes:
       - .:/app
     working_dir: /app
